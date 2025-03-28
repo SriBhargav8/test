@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // In a real implementation, you would use fetch to send data to Google Sheets
     // Example:
     
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyMaeAe5CjltJMMYCTIhqHtTBkiNI-LMu5sRo3aZtWH8FULekkJQJ2wKtuSxGuNToh0/exec';
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxF8npd9aXxCY2kcFkNmIzfrweHPdpcSNfotK8Koei4vZcpfY3EZLQhV62hl_jOxkm7/exec';
         
         fetch(scriptURL, {
             method: 'POST',
