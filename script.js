@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Replace this URL with your deployed Web App URL.
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbw81AV2R9Vt0eSX63m7cOKjFebPL7HC7K0RR5QZbMD1Y3ONRB0lmUPEos95f6DaJ2Um/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxwWKiYPAXChxIerEvEo5AB56_lcNhEp7WGWgXdUTgTutOcftQDvPyCX4Ul9tMfiSV5/exec';
 
     fetch(scriptURL, {
       method: 'POST',
