@@ -90,18 +90,18 @@ document.addEventListener("DOMContentLoaded", () => {
       },
     })
 
-    // Simulate API call (replace with actual Google Sheets API call)
-    setTimeout(() => {
-      Swal.fire({
-        title: "Success!",
-        text: "Your information has been submitted successfully",
-        icon: "success",
-        confirmButtonColor: "#f39c12",
-      }).then(() => {
-        // Redirect to the share page
-        window.location.href = "success.html"
-      })
-    }, 1500)
+    // setTimeout(() => {
+//   Swal.fire({
+//     title: "Success!",
+//     text: "Your information has been submitted successfully",
+//     icon: "success",
+//     confirmButtonColor: "#f39c12",
+//   }).then(() => {
+//     // Redirect to the share page
+//     window.location.href = "success.html"
+//   })
+// }, 1500)
+
 
     // In a real implementation, you would use fetch to send data to Google Sheets
     // Example:
